@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/my_nanodegree_apps"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spotify_streamer"
+            style="@style/ButtonStyle"
+            android:text="@string/spotify_streamer"
+            android:onClick="openApp" />
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/super_duo_app"
+            style="@style/ButtonStyle"
+            android:text="@string/super_duo_app"
+            android:onClick="openApp" />
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/library_app"
+            style="@style/ButtonStyle"
+            android:text="@string/library_app"
+            android:onClick="openApp" />
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/build_it_bigger"
+            style="@style/ButtonStyle"
+            android:text="@string/build_it_bigger"
+            android:onClick="openApp" />
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/xyz_reader"
+            style="@style/ButtonStyle"
+            android:text="@string/xyz_reader"
+            android:onClick="openApp" />
+
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/my_own_app"
+            style="@style/RedButtonStyle"
+            android:text="@string/my_own_app"
+            android:onClick="openApp" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/MyAppPortfolio/app/src/main/res/layout/activity_main.xml -->
